@@ -23,8 +23,7 @@ function App() {
         params: {
           lat: lat,
           lon: long,
-          // appid: process.env.REACT_APP_OPEN_WEATHER_KEY,
-          appid: "e6d37803ae9f4cb584378ddea0de46c9",
+          appid: process.env.REACT_APP_OPEN_WEATHER_KEY,
           lang: "pt",
           units: "metric",
         },
