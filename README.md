@@ -26,7 +26,7 @@
 <br>
 
 <p>Permissão</p>
-<img src="src/assets/permissao.png" width="960px" align="center">
+<img src="src/assets/permisso.png" width="960px" align="center">
 
 <br>
 
