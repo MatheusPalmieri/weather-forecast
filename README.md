@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+<!-- Título -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Weather API</h1>
 
-## Available Scripts
+<!-- Descrição -->
 
-In the project directory, you can run:
+<p align="center">Através da API, fornecemos dados meteorológicos históricos para o local da máquina do usuário.</p>
 
-### `npm start`
+<!-- Súmario -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+ <a href="#demo">Demo</a> •
+ <a href="#rodando-a-aplicação">Rodando A Aplicação</a> •
+ <a href="#tecnologias">Tecnologias</a> •
+ <a href="#autor">Autor</a>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>Permissão</p>
+<img src="src/assets/permissao.png" width="960px" align="center">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+<p>Aviso de carregamento</p>
+<img src="src/assets/carregando.png" width="960px" align="center">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>Noturno Screen</p>
+<img src="src/assets/noturno.png" width="960px" align="center">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p>Matutino Screen</p>
+<img src="src/assets/matutino.png" width="960px" align="center">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+## Rodando A Aplicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<a href="https://matheuspalmieri-weatherapi.netlify.app/" target="_blank">Acesso o site do Projeto, clicando aqui.</a>
 
-### Analyzing the Bundle Size
+```
+https://matheuspalmieri-weatherapi.netlify.app/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
 
-### Making a Progressive Web App
+### Requirimentos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/lang/en/) or [Npm](https://www.npmjs.com/)
 
-### Advanced Configuration
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Clone o repositório e acesse a pasta
+```
+$ git clone https://github.com/MatheusPalmieri/weather-api && cd weather-api
+```
 
-### Deployment
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Siga as etapas para rodar o Projeto em sua máquina local
+```
+# Para instalar as dependências necessárias
+$ npm install
 
-### `npm run build` fails to minify
+# Para startar projeto
+$ npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Abra o browser na página "http://localhost:3000" para visualizar.
+
+```
+<br>
+
+---
+
+<br>
+
+## Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [React](https://pt-br.reactjs.org/)
+- [JavaScript](https://www.javascript.com/)
+- [CSS](https://html.com/css/)
+- [Axios](https://axios-http.com/)
+
+<br>
+
+---
+
+<br>
+
+### Autor
+
+Create for <b>`Matheus Palmieri`</b>👨‍💻
+
+<br>
+<br>
+
+<p align="center">🎉Test Weather API Finalizado🚀</p>
