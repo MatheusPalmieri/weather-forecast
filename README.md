@@ -96,9 +96,9 @@ Abra o browser na página "http://localhost:3000" para visualizar.
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React](https://pt-br.reactjs.org/)
-- [JavaScript](https://www.javascript.com/)
+- [HTML](https://www.html.com/)
 - [CSS](https://html.com/css/)
-- [Axios](https://axios-http.com/)
+- [JavaScript](https://www.javascript.com/)
 
 <br>
 
