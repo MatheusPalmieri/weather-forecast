@@ -1,6 +1,6 @@
 <!-- Título -->
 
-<h1 align="center">Weather API</h1>
+<h1 align="center">Previsão do Tempo</h1>
 
 <!-- Descrição -->
 
@@ -26,23 +26,22 @@
 <br>
 
 <p>Permissão</p>
-<img src="src/assets/permissao.png" width="960px" align="center">
+<img src="src/assets/permission.png" width="960px" align="center">
 
 <br>
 
 <p>Aviso de carregamento</p>
-<img src="src/assets/carregando.png" width="960px" align="center">
+<img src="src/assets/loading.png" width="960px" align="center">
 
 <br>
 
-<p>Noturno Screen</p>
-<img src="src/assets/noturno.png" width="960px" align="center">
+<p>Tela de fundo Noturno</p>
+<img src="src/assets/nocturnal.png" width="960px" align="center">
 
 <br>
 
-<p>Matutino Screen</p>
-<img src="src/assets/matutino.png" width="960px" align="center">
-
+<p>Tela de fundo Matutino</p>
+<img src="src/assets/morning.png" width="960px" align="center">
 
 ---
 
@@ -50,10 +49,10 @@
 
 ## Rodando A Aplicação
 
-<a href="https://matheuspalmieri-weatherapi.netlify.app/" target="_blank">Acesso o site do Projeto, clicando aqui.</a>
+<a href="https://matheuspalmieri-weatherforecast.netlify.app/" target="_blank">Acesso o site do Projeto, clicando aqui.</a>
 
 ```
-https://matheuspalmieri-weatherapi.netlify.app/
+https://matheuspalmieri-weatherforecast.netlify.app/
 ```
 
 <br>
@@ -66,23 +65,26 @@ https://matheuspalmieri-weatherapi.netlify.app/
 <br>
 
 ### Clone o repositório e acesse a pasta
+
 ```
-$ git clone https://github.com/MatheusPalmieri/weather-api && cd weather-api
+$ git clone https://github.com/MatheusPalmieri/weather-forecast && cd weather-forecast
 ```
 
 <br>
 
 ### Siga as etapas para rodar o Projeto em sua máquina local
+
 ```
 # Para instalar as dependências necessárias
-$ npm install
+$ npm install or yarn
 
 # Para startar projeto
-$ npm start
+$ npm start or yarn start
 
 Abra o browser na página "http://localhost:3000" para visualizar.
 
 ```
+
 <br>
 
 ---
@@ -111,4 +113,4 @@ Create for <b>`Matheus Palmieri`</b>👨‍💻
 <br>
 <br>
 
-<p align="center">🎉Test Weather API Finalizado🚀</p>
+<p align="center">🎉Weather Forecast Finalizado🚀</p>

@@ -7,11 +7,11 @@
 }
 
 .alert {
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(5px);
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
 }
 
 .container {
@@ -25,7 +25,7 @@
   background-color: rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(5px);
   border-radius: 15px;
-  padding: 35px 25px;
+  padding: 40px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -73,9 +73,6 @@ h3 {
   display: flex;
   margin: 0 10px;
   font-size: 1.4em;
-}
-
-.list .top li:first-child {
 }
 
 .bottom li {

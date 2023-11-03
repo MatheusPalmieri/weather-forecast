@@ -1,6 +1,5 @@
 import "./App.css";
-import React, { Fragment, useState, useEffect } from "react";
-import axios from "axios";
+import React, { Fragment, useState, useLayoutEffect } from "react";
 
 import Background from "./components/Background";
 
@@ -8,6 +7,7 @@ import SouthIcon from "@mui/icons-material/South";
 import NorthIcon from "@mui/icons-material/North";
 import OpacityIcon from "@mui/icons-material/Opacity";
 import SpeedIcon from "@mui/icons-material/Speed";
+import getWeatherForecast from "./services/api";
 
 function App() {
   const [location, setLocation] = useState(false);
@@ -16,30 +16,23 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [show, setShow] = useState(false);
 
-  let getWeather = async (lat, long) => {
-    let res = await axios.get(
-      "http://api.openweathermap.org/data/2.5/weather",
-      {
-        params: {
-          lat: lat,
-          lon: long,
-          appid: process.env.REACT_APP_OPEN_WEATHER_KEY,
-          lang: "pt",
-          units: "metric",
-        },
-      }
-    );
-    setWeather(res.data);
-    setLoading(false);
-    setShow(true);
+  const getWeather = async (lat, lon) => {
+    try {
+      setWeather(await getWeatherForecast(lat, lon));
+    } catch (error) {
+      console.error(error, "Error on getWeather");
+    } finally {
+      setLoading(false);
+      setShow(true);
+      setTime(new Date().getHours());
+    }
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
       setLocation(true);
       setLoading(true);
       getWeather(position.coords.latitude, position.coords.longitude);
-      setTime(new Date().getHours());
     });
   }, []);
 
@@ -69,18 +62,15 @@ function App() {
             <ul className="list">
               <div className="top">
                 <li>
-                  <div className="icon-temp-min">
-                    <SouthIcon />
-                  </div>
+                  <SouthIcon />
                   {weather["main"]["temp_min"].toFixed()}º
                 </li>
                 <li>
-                  <div className="icon-temp-max">
-                    <NorthIcon />
-                  </div>
+                  <NorthIcon />
                   {weather["main"]["temp_max"].toFixed()}º
                 </li>
               </div>
+
               <div className="bottom">
                 <li>
                   <div className="icon-temp">
