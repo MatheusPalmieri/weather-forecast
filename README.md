@@ -9,7 +9,7 @@
 <!-- Súmario -->
 
 <p align="center">
- <a href="#demo">Demo</a> •
+ <a href="#demo">Screenshots</a> •
  <a href="#rodando-a-aplicação">Rodando A Aplicação</a> •
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#autor">Autor</a>
@@ -21,7 +21,7 @@
 
 <br>
 
-## Demo
+## Screenshots
 
 <br>
 
@@ -95,10 +95,7 @@ Abra o browser na página "http://localhost:3000" para visualizar.
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [React](https://pt-br.reactjs.org/)
-- [HTML](https://www.html.com/)
-- [CSS](https://html.com/css/)
-- [JavaScript](https://www.javascript.com/)
+**Frontend**: React, JavaScript, HTML e CSS.
 
 <br>
 
