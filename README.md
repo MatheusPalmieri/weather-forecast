@@ -26,22 +26,17 @@
 <br>
 
 <p>Permissão</p>
-<img src="src/assets/permission.png" width="960px" align="center">
-
-<br>
-
-<p>Aviso de carregamento</p>
-<img src="src/assets/loading.png" width="960px" align="center">
+<img src="src/assets/permission.png" width="720px">
 
 <br>
 
 <p>Tela de fundo Noturno</p>
-<img src="src/assets/nocturnal.png" width="960px" align="center">
+<img src="src/assets/nocturnal.png" width="720px">
 
 <br>
 
 <p>Tela de fundo Matutino</p>
-<img src="src/assets/morning.png" width="960px" align="center">
+<img src="src/assets/morning.png" width="720px">
 
 ---
 
@@ -96,6 +91,7 @@ Abra o browser na página "http://localhost:3000" para visualizar.
 As seguintes ferramentas foram usadas na construção do projeto:
 
 **Frontend**: React, JavaScript, HTML e CSS.
+**Api**: OpenWeather.
 
 <br>
 
