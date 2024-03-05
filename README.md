@@ -9,7 +9,7 @@
 <!-- Súmario -->
 
 <p align="center">
- <a href="#demo">Screenshots</a> •
+ <a href="#screenshots">Screenshots</a> •
  <a href="#rodando-a-aplicação">Rodando A Aplicação</a> •
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#autor">Autor</a>
@@ -23,26 +23,28 @@
 
 ## Screenshots
 
-<br>
+<br id="screenshots" />
 
 <p>Permissão</p>
 <img src="src/assets/permission.png" width="720px">
 
-<br>
+<br />
 
 <p>Tela de fundo Noturno</p>
 <img src="src/assets/nocturnal.png" width="720px">
 
-<br>
+<br />
 
 <p>Tela de fundo Matutino</p>
 <img src="src/assets/morning.png" width="720px">
 
 ---
 
-<br>
+<br />
 
-## Rodando A Aplicação
+## Rodando a Aplicação
+
+<br id="rodando-a-aplicação" />
 
 <a href="https://matheuspalmieri-weatherforecast.netlify.app/" target="_blank">Acesso o site do Projeto, clicando aqui.</a>
 
@@ -50,60 +52,63 @@
 https://matheuspalmieri-weatherforecast.netlify.app/
 ```
 
-<br>
+<br />
 
-### Requirimentos
+### Siga as etapas para rodar o Projeto em sua máquina local
+
+#### Requirimentos
 
 - [Node](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/lang/en/) or [Npm](https://www.npmjs.com/)
 
-<br>
-
-### Clone o repositório e acesse a pasta
+#### Clone o repositório e acesse a pasta
 
 ```
 $ git clone https://github.com/MatheusPalmieri/weather-forecast && cd weather-forecast
 ```
 
-<br>
-
-### Siga as etapas para rodar o Projeto em sua máquina local
+#### Instalando as dependências necessárias
 
 ```
-# Para instalar as dependências necessárias
 $ npm install or yarn
-
-# Para startar projeto
-$ npm start or yarn start
-
-Abra o browser na página "http://localhost:3000" para visualizar.
-
 ```
 
-<br>
+#### Rodar projeto local
+
+```
+$ npm start or yarn start
+```
+
+<i>Abra o browser na página "http://localhost:3000" para visualizar.</i>
+
+<br />
 
 ---
 
-<br>
+<br />
 
 ## Tecnologias
+
+<br id="tecnologias" />
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
 **Frontend**: React, JavaScript, HTML e CSS.
+<br />
 **Api**: OpenWeather.
 
-<br>
+<br />
 
 ---
 
-<br>
+<br />
 
-### Autor
+## Autor
+<br id="autor" />
 
 Create for <b>`Matheus Palmieri`</b>👨‍💻
 
-<br>
-<br>
+<br />
+<br />
 
 <p align="center">🎉Weather Forecast Finalizado🚀</p>
