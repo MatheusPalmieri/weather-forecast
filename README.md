@@ -2,29 +2,25 @@
 
 <p align="center">Fornecemos dados meteorológicos históricos precisos via API.</p>
 
-## Screenshots
-
 <br />
+
+## Screenshots
 
 #### Permissão
 
 <img src="src/assets/permission.png" width="720px">
 
-<br />
-
 #### Tela de fundo Matutino
 
 <img src="src/assets/morning.png" width="720px">
-
-<br />
 
 #### Tela de fundo Noturno
 
 <img src="src/assets/nocturnal.png" width="720px">
 
-## Rodando a Aplicação
+<br />
 
-<br id="rodando-a-aplicação" />
+## Rodando a Aplicação
 
 <a href="https://matheuspalmieri-weatherforecast.netlify.app/" target="_blank">Acesso o site do Projeto, clicando aqui.</a>
 
@@ -32,9 +28,7 @@
 https://matheuspalmieri-weatherforecast.netlify.app/
 ```
 
-<br />
-
-### Siga as etapas para rodar o Projeto em sua máquina local
+<i>Siga as etapas para rodar o Projeto em sua máquina local.</i>
 
 #### Requirimentos
 
@@ -61,23 +55,27 @@ $ npm start or yarn start
 
 <i>Abra o browser na página "http://localhost:3000" para visualizar.</i>
 
+<br />
 ## Tecnologias
 
-<br />
-
-As seguintes ferramentas foram usadas na construção do projeto:
+<p>As seguintes ferramentas foram usadas na construção do projeto:</p>
 
 **Frontend**: React, JavaScript, HTML e CSS.
 <br />
 **Api**: OpenWeather.
 
-## Autor
+<br />
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 <br />
+
+## Autor
 
 Create for <b>`Matheus Palmieri`</b>👨‍💻
 
-<br />
 <br />
 
 <p align="center">🌧️ Weather Forecast V1.1.0 🚀</p>
