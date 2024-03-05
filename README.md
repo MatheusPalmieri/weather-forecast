@@ -28,7 +28,9 @@
 https://matheuspalmieri-weatherforecast.netlify.app/
 ```
 
+<br />
 <i>Siga as etapas para rodar o Projeto em sua máquina local.</i>
+<br />
 
 #### Requirimentos
 
@@ -56,6 +58,7 @@ $ npm start or yarn start
 <i>Abra o browser na página "http://localhost:3000" para visualizar.</i>
 
 <br />
+
 ## Tecnologias
 
 <p>As seguintes ferramentas foram usadas na construção do projeto:</p>
