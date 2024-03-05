@@ -1,46 +1,26 @@
-<!-- Título -->
-
 <h1 align="center">Previsão do Tempo</h1>
 
-<!-- Descrição -->
-
-<p align="center">Através da API, fornecemos dados meteorológicos históricos para o local da máquina do usuário.</p>
-
-<!-- Súmario -->
-
-<p align="center">
- <a href="#screenshots">Screenshots</a> •
- <a href="#rodando-a-aplicação">Rodando A Aplicação</a> •
- <a href="#tecnologias">Tecnologias</a> •
- <a href="#autor">Autor</a>
-</p>
-
-<br>
-
----
-
-<br>
+<p align="center">Fornecemos dados meteorológicos históricos precisos via API.</p>
 
 ## Screenshots
 
-<br id="screenshots" />
+<br />
 
-<p>Permissão</p>
+#### Permissão
+
 <img src="src/assets/permission.png" width="720px">
 
 <br />
 
-<p>Tela de fundo Noturno</p>
-<img src="src/assets/nocturnal.png" width="720px">
+#### Tela de fundo Matutino
 
-<br />
-
-<p>Tela de fundo Matutino</p>
 <img src="src/assets/morning.png" width="720px">
 
----
-
 <br />
+
+#### Tela de fundo Noturno
+
+<img src="src/assets/nocturnal.png" width="720px">
 
 ## Rodando a Aplicação
 
@@ -81,15 +61,9 @@ $ npm start or yarn start
 
 <i>Abra o browser na página "http://localhost:3000" para visualizar.</i>
 
-<br />
-
----
-
-<br />
-
 ## Tecnologias
 
-<br id="tecnologias" />
+<br />
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -97,18 +71,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <br />
 **Api**: OpenWeather.
 
-<br />
-
----
-
-<br />
-
 ## Autor
-<br id="autor" />
+
+<br />
 
 Create for <b>`Matheus Palmieri`</b>👨‍💻
 
 <br />
 <br />
 
-<p align="center">🎉Weather Forecast Finalizado🚀</p>
+<p align="center">🌧️ Weather Forecast V1.1.0 🚀</p>
