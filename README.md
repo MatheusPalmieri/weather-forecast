@@ -1,67 +1,67 @@
-<h1 align="center">Previsão do Tempo</h1>
+<h1 align="center">Weather Forecast</h1>
 
-<p align="center">Fornecemos dados meteorológicos históricos precisos via API.</p>
+<p align="center">We provide accurate historical weather data via API.</p>
 
 <br />
 
 ## Screenshots
 
-#### Permissão
+#### Permission
 
 <img src="src/assets/permission.png" width="720px">
 
-#### Tela de fundo Matutino
+#### Morning Background
 
 <img src="src/assets/morning.png" width="720px">
 
-#### Tela de fundo Noturno
+#### Nocturnal Background
 
 <img src="src/assets/nocturnal.png" width="720px">
 
 <br />
 
-## Rodando a Aplicação
+## Running the Application
 
-<a href="https://matheuspalmieri-weatherforecast.netlify.app/" target="_blank">Acesso o site do Projeto, clicando aqui.</a>
+<a href="https://matheuspalmieri-weatherforecast.netlify.app/" target="_blank">Access the Project's website by clicking here.</a>
 
 ```
 https://matheuspalmieri-weatherforecast.netlify.app/
 ```
 
 <br />
-<i>Siga as etapas para rodar o Projeto em sua máquina local.</i>
+<i>Follow the steps to run the Project on your local machine.</i>
 <br />
 
-#### Requirimentos
+#### Requirements
 
 - [Node](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/lang/en/) or [Npm](https://www.npmjs.com/)
 
-#### Clone o repositório e acesse a pasta
+#### Clone the repository and navigate to the folder
 
 ```
 $ git clone https://github.com/MatheusPalmieri/weather-forecast && cd weather-forecast
 ```
 
-#### Instalando as dependências necessárias
+#### Installing necessary dependencies
 
 ```
 $ npm install or yarn
 ```
 
-#### Rodar projeto local
+#### Run local project
 
 ```
 $ npm start or yarn start
 ```
 
-<i>Abra o browser na página "http://localhost:3000" para visualizar.</i>
+<i>Open the browser on the page "http://localhost:3000" to view.</i>
 
 <br />
 
-## Tecnologias
+## Technologies
 
-<p>As seguintes ferramentas foram usadas na construção do projeto:</p>
+<p>The following tools were used in the project:</p>
 
 **Frontend**: React, JavaScript, HTML e CSS.
 <br />
@@ -71,13 +71,13 @@ $ npm start or yarn start
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+This project is licensed under the[Licença MIT](LICENSE).
 
 <br />
 
-## Autor
+## Author
 
-Create for <b>`Matheus Palmieri`</b>👨‍💻
+Created by <b>`Matheus Palmieri`</b>👨‍💻
 
 <br />
 
